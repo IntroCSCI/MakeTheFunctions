@@ -5,7 +5,7 @@ using namespace std;
 
 //prototypes:
 bool isPositive(int a);
-void fillWith(vector <int> & vec,int a);
+void fillWith(vector <int> & vec, int a);
 void printVector(vector <int> vec);
 
 /////DO NOT TOUCH/////
@@ -52,7 +52,7 @@ bool isPositive(int a)
         }
         return false;
 }
-void fillWith(vector <int> & vec, int a) 
+void fillWith(vector <int> & vec, int a)
 {
         for(int i=0;i<vec.size();i++)
         {
